@@ -9,3 +9,9 @@ output = [tuple(filter(None, tp)) for tp in output] #remove empty tubles
 
 for data in output:
 	print(data[0].split("/")[0] + " > " + data[0].split("/")[1] + "\n" )
+
+# References:‬
+# ‏‪1. Stanford Arabic part-of-speech tagset‬
+# ‏‪https://www.sketchengine.co.uk/stanford-arabic-part-of-speech-tagset/‬
+# ‏‪2. Stanford POS tagger‬
+# ‏‪https://nlp.stanford.edu/software/pos-tagger-faq.html#tagset‬
